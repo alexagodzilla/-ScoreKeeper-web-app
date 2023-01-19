@@ -1,0 +1,32 @@
+.card {
+    margin: 2em auto 0 auto;
+    width: 400px;
+}
+
+.para{
+    margin-right: 0.3em;
+    display: inline-block;
+}
+
+.ft-btn{
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 33.3%;  /* 33.3% rispetto al footer */
+}
+
+.select{
+    margin: 0px;
+    border-radius: 35%;
+}
+
+.redSpan{
+    color: red;
+}
+
+.greenSpan{
+    color: green;
+}
+
+.hide{
+    display: none;
+}

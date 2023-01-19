@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Score Keeper</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-16by9">
+        <!-- is-4by3 = 4/3 e is-16by9 sedici noni -->
+        <img
+          src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3784&q=80"
+          alt="Placeholder image">
+      </figure>
+    </div>
+    <header class="card-header">
+      <p class="card-header-title">
+        Ping Pong Score Keeper
+      </p>
+    </header>
+
+    <div class="card-content">
+      <div class="content">
+        <h1><span class="scoreP1">0</span> to <span class="scoreP2">0</span></h1>
+        <div class="win">
+          <p>Use the buttons below to keep score.</p>
+          <p class="para"><b>Playing To</b></p>
+          <select class="select">
+            <option value="5">
+              5
+            </option>
+            <option value="6">
+              6
+            </option>
+            <option value="7">
+              7
+            </option>
+            <option value="8">
+              8
+            </option>
+            <option value="9">
+              9
+            </option>
+            <option value="10">
+              10
+            </option>
+            <option value="11">
+              11
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <footer class="card-footer">
+      <button class="btnP1 button ft-btn is-primary">+1 Player One</button>
+      <button class="btnP2 button ft-btn is-info">+1 Player Two</button>
+      <button class="btnReset button ft-btn is-danger">Reset</button>
+    </footer>
+  </div>
+
+  <script src="https://kit.fontawesome.com/da9e306fbd.js" crossorigin="anonymous"></script>
+  <script src="scoore-keeper.js"></script>
+</body>
+
+</html>
